@@ -1,6 +1,6 @@
 {
   "name": "nuxt-typeform",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Embed Typeform surveys in your NuxtJS application",
   "main": "index.js",
   "scripts": {
