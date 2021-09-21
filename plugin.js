@@ -37,8 +37,7 @@ Vue.component('Typeform', {
       onSubmit: this.onSubmit,
     }
 
-    //createWidget(this.$el, this.url, options)
-    createWidget(this.formId, { container: this.$el, ...this.options })
+    createWidget(this.formId, { container: this.$el, ...options })
   },
   render(createElement) {
     return createElement('div')
