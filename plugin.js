@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import { createWidget } from '@typeform/embed'
+import '@typeform/embed/build/css/widget.css'
 
 Vue.component('Typeform', {
   props: {
